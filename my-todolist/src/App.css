@@ -1,0 +1,133 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+
+
+body{
+  background-color: blanchedalmond;
+  background-size: 100% 100%;
+}
+
+h1{
+  color: #878787;
+  font-size: 7rem;
+}
+
+header{
+  min-height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inputText{
+  font-size: 2rem;
+  margin: 2rem;
+}
+
+.input-content, .input-btn{
+  text-decoration: none;
+  border: none;
+  font-size: 2rem;
+  outline: none;
+  padding: 0.5rem;
+  background: #fff;
+}
+.input-btn{
+  color: #9c6060;
+  transition: all .3s ease-in-out;
+  cursor: pointer;
+}
+.input-btn:hover{
+  background-color: #9c6060;
+  color: #fff;
+}
+
+
+.selects{
+  font-size: 1rem;
+  text-decoration: none;
+  padding: 1rem;
+  border: none;
+  outline: none;
+  min-width: 15rem;
+  color: #9c6060;
+  font-weight: bold;
+  appearance: none
+}
+.select-bar{
+  position: relative;
+}
+
+
+.select-bar::after{
+  content:'▼';
+  position: absolute;
+  padding: 1rem;  
+  pointer-events: none;
+  color: #9c6060;
+  top:0;
+  right: 0;
+  transition: all .3s ease-in-out;
+}
+
+.select-bar:hover::after{
+ background-color:#9c6060;
+ color: #fff;
+}
+
+.todolist{
+  display: flex;
+  justify-content: center;
+  
+}
+.todo{
+  background-color: #fff;
+min-width: 20rem;
+  font-size: 2rem;
+  display: flex;
+  justify-content: space-between;
+  outline: none;
+  margin: 1rem;
+  
+}
+
+
+li{
+  flex: 1 1;
+  padding: 0.5rem;
+}
+.complete-btn{
+  background: #639c60;
+}
+.trash-btn{
+  background: #9c6d60;
+}
+
+.fa-check,.fa-trash{
+  font-size: 1.5rem;
+  min-width: 2rem;
+}
+
+.complete-btn, .trash-btn{
+  border: none;
+  color: #fff;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.completed{
+  text-decoration: line-through;
+  color: #878787;
+  opacity: 0.8;
+}
