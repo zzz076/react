@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix practice</title>
+    <script src="https://kit.fontawesome.com/769d2a0535.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./index.js" defer></script>
+</head>
+<body>
+    <div class="app">
+        <div class="nav">
+            <div class="nav-bar">
+                <div class="left">
+                    <div class="logo">
+                        <img src="./assets/Netflix-Logo.wine.svg"></img >
+                    </div>
+                    <div class="selection">
+                        <a href="#">首頁</a>
+                        <a href="#">節目</a>
+                        <a href="#">電影</a>
+                        <a href="#">最新熱門影片</a>
+                        <a href="#">我的片單</a>
+                        <a href="#">按照語言瀏覽</a>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="nav-element search">
+                        <a class="nav-btn search-bar" id="activeInput" href="#">
+                            <i class="fa-solid fa-magnifying-glass testa"></i>
+                            <input placeholder="片名、類型、人名" type="text" class="trigger-input testb">
+                        </a>
+                    </div>
+                    
+                    <div class="nav-element bell">
+                        <a class="nav-btn " id="activeButton" href="#">
+                            <i class="fa-solid fa-bell"></i>
+                            <div class="callout-arrow trigger ">▲</div>
+                        </a>
+                        <div class="sub-menu trigger ">
+                        
+                            <ul class="sub-menu-list ">
+                                <div class="topbar"></div>
+                                <li class="sub-menu-item">
+                                    <div class="ptrack-container">
+                                        <div class="ptrack-content">
+                                            <ul class="notifications-container">
+                                                <li class="notification">
+                                                    <div class="notification-content">
+                                                        <div class="image-text-notification">
+                                                            <a href="#" class="image"><img class="title-card" src="./assets/波吉.jpg" alt="國王排名"></a>
+                                                            <a href="#" class="text">
+                                                                <div class="header">最新到片</div>
+                                                                <div class="body">國王排名</div>
+                                                                <div class="age">
+                                                                    <div class="relative-time">2週前</div>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="notification">
+                                                    <div class="notification-content">
+                                                        <div class="image-text-notification">
+                                                            <a href="#" class="image"><img class="title-card" src="./assets/波吉.jpg" alt="國王排名"></a>
+                                                            <a href="#" class="text">
+                                                                <div class="header">最新到片</div>
+                                                                <div class="body">國王排名</div>
+                                                                <div class="age">
+                                                                    <div class="relative-time">2週前</div>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="notification">
+                                                    <div class="notification-content">
+                                                        <div class="image-text-notification">
+                                                            <a href="#" class="image"><img class="title-card" src="./assets/波吉.jpg" alt="國王排名"></a>
+                                                            <a href="#" class="text">
+                                                                <div class="header">最新到片</div>
+                                                                <div class="body">國王排名</div>
+                                                                <div class="age">
+                                                                    <div class="relative-time">2週前</div>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="notification">
+                                                    <div class="notification-content">
+                                                        <div class="image-text-notification">
+                                                            <a href="#" class="image"><img class="title-card" src="./assets/波吉.jpg" alt="國王排名"></a>
+                                                            <a href="#" class="text">
+                                                                <div class="header">最新到片</div>
+                                                                <div class="body">國王排名</div>
+                                                                <div class="age">
+                                                                    <div class="relative-time">2週前</div>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="notification">
+                                                    <div class="notification-content">
+                                                        <div class="image-text-notification">
+                                                            <a href="#" class="image"><img class="title-card" src="./assets/波吉.jpg" alt="國王排名"></a>
+                                                            <a href="#" class="text">
+                                                                <div class="header">最新到片</div>
+                                                                <div class="body">國王排名</div>
+                                                                <div class="age">
+                                                                    <div class="relative-time">2週前</div>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="notification">
+                                                    <div class="notification-content">
+                                                        <div class="image-text-notification">
+                                                            <a href="#" class="image"><img class="title-card" src="./assets/波吉.jpg" alt="國王排名"></a>
+                                                            <a href="#" class="text">
+                                                                <div class="header">最新到片</div>
+                                                                <div class="body">國王排名</div>
+                                                                <div class="age">
+                                                                    <div class="relative-time">2週前</div>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="notification">
+                                                    <div class="notification-content">
+                                                        <div class="image-text-notification">
+                                                            <a href="#" class="image"><img class="title-card" src="./assets/波吉.jpg" alt="國王排名"></a>
+                                                            <a href="#" class="text">
+                                                                <div class="header">最新到片</div>
+                                                                <div class="body">國王排名</div>
+                                                                <div class="age">
+                                                                    <div class="relative-time">2週前</div>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="notification">
+                                                    <div class="notification-content">
+                                                        <div class="image-text-notification">
+                                                            <a href="#" class="image"><img class="title-card" src="./assets/波吉.jpg" alt="國王排名"></a>
+                                                            <a href="#" class="text">
+                                                                <div class="header">最新到片</div>
+                                                                <div class="body">國王排名</div>
+                                                                <div class="age">
+                                                                    <div class="relative-time">2週前</div>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="notification">
+                                                    <div class="notification-content">
+                                                        <div class="image-text-notification">
+                                                            <a href="#" class="image"><img class="title-card" src="./assets/波吉.jpg" alt="國王排名"></a>
+                                                            <a href="#" class="text">
+                                                                <div class="header">最新到片</div>
+                                                                <div class="body">國王排名</div>
+                                                                <div class="age">
+                                                                    <div class="relative-time">2週前</div>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="nav-element">
+                        <a class="nav-btn" href="#"><img src="./assets/波吉.jpg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero">
+            <div class="mask"></div>
+            <div class="hero-btn">
+                <i class="replay fa-solid fa-arrow-rotate-right"></i>
+                <div class="level">7+</div>
+            </div>
+        </div>
+        <div class="hero-describe">
+            <div class="hero-tag"><img src="./assets/Netflix_icon.svg.png" alt="">電影</div>
+            <div class="hero-img"><img src="./assets/波吉.jpg" alt=""></div>
+            <div class="hero-content">在這個還保有魔法、神明與各式怪物的奇幻世界，許多人汲汲營營於打造自己的王國、提升國家的「國王排名」</div>
+            <div class="describe-btns">
+                <div class="hero-play">
+                    <div class="hero-play-icon"><i class="fa-solid fa-play"></i></div>
+                    <div class="hero-play-text">播放</div>
+                </div>
+                <div class="hero-infor">
+                    <div class="hero-infor-icon"><i class="fa-solid fa-circle-info"></i></div>
+                    <div class="hero-infor-text">更多資訊</div>
+                </div>
+            </div>
+        </div>
+        <div class="under">
+            <div class="rows">
+                <div class="row">
+                    <div class="row-header">
+                        <h3 class="row-title">本月精選</h3>
+                        <div class="progress-bar">
+                        
+                        </div>
+                    </div>
+                    <div class="container">
+                        <button class="handle left-handle"><div class="text">
+                            &#8249;
+                        </div></button>
+                        <div class="slider">
+                            <img src="https://via.placeholder.com/210/00ff00?text=1" >
+                            <img src="https://via.placeholder.com/220/00ff00?text=2" >
+                            <img src="https://via.placeholder.com/230/00ff00?text=3" >
+                            <img src="https://via.placeholder.com/240/00ff00?text=4" >
+                            <img src="https://via.placeholder.com/250/00ff00?text=5" >
+                            <img src="https://via.placeholder.com/260/00ff00?text=6" >
+                            <img src="https://via.placeholder.com/270/00ff00?text=7" >
+                            <img src="https://via.placeholder.com/280/00ff00?text=8" >
+                            <img src="https://via.placeholder.com/280/00ff00?text=9" >
+                            <img src="https://via.placeholder.com/280/00ff00?text=10" >
+                            <img src="https://via.placeholder.com/280/00ff00?text=11" >
+                            <img src="https://via.placeholder.com/280/00ff00?text=12" >
+                        </div>
+                        <button class="handle right-handle"><div class="text">
+                            &#8250;
+                        </div></button>
+                    </div>
+                </div>
+                <div class="row-two row">
+                    <div class="row-header">
+                        <h3 class="row-title">動漫</h3>
+                        <div class="progress-bar">
+                        
+                        </div>
+                    </div>
+                    <div class="container">
+                        <button class="handle left-handle"><div class="text">
+                            &#8249;
+                        </div></button>
+                        <div class="slider">
+                            <img src="https://via.placeholder.com/210/00ff00?text=1" >
+                            <img src="https://via.placeholder.com/220/00ff00?text=2" >
+                            <img src="https://via.placeholder.com/230/00ff00?text=3" >
+                            <img src="https://via.placeholder.com/240/00ff00?text=4" >
+                            <img src="https://via.placeholder.com/250/00ff00?text=5" >
+                            <img src="https://via.placeholder.com/260/00ff00?text=6" >
+                            <img src="https://via.placeholder.com/270/00ff00?text=7" >
+                            <img src="https://via.placeholder.com/280/00ff00?text=8" >
+                            <img src="https://via.placeholder.com/280/00ff00?text=9" >
+                            <img src="https://via.placeholder.com/280/00ff00?text=10" >
+                            <img src="https://via.placeholder.com/280/00ff00?text=11" >
+                            <img src="https://via.placeholder.com/280/00ff00?text=12" >
+                        </div>
+                        <button class="handle right-handle"><div class="text">
+                            &#8250;
+                        </div></button>
+                    </div>
+                </div>
+                <div class="row-three row">
+                    <div class="row-header">
+                        <h3 class="row-title">韓劇</h3>
+                        <div class="progress-bar">
+                        
+                        </div>
+                    </div>
+                    <div class="container">
+                        <button class="handle left-handle"><div class="text">
+                            &#8249;
+                        </div></button>
+                        <div class="slider">
+                            <img src="https://via.placeholder.com/210/00ff00?text=1" >
+                            <img src="https://via.placeholder.com/220/00ff00?text=2" >
+                            <img src="https://via.placeholder.com/230/00ff00?text=3" >
+                            <img src="https://via.placeholder.com/240/00ff00?text=4" >
+                            <img src="https://via.placeholder.com/250/00ff00?text=5" >
+                            <img src="https://via.placeholder.com/260/00ff00?text=6" >
+                            <img src="https://via.placeholder.com/270/00ff00?text=7" >
+                            <img src="https://via.placeholder.com/280/00ff00?text=8" >
+                            <img src="https://via.placeholder.com/280/00ff00?text=9" >
+                            <img src="https://via.placeholder.com/280/00ff00?text=10" >
+                            <img src="https://via.placeholder.com/280/00ff00?text=11" >
+                            <img src="https://via.placeholder.com/280/00ff00?text=12" >
+                        </div>
+                        <button class="handle right-handle"><div class="text">
+                            &#8250;
+                        </div></button>
+                    </div>
+                </div>
+                <div class="row-four row">
+                    <div class="row-header">
+                        <h3 class="row-title">美劇</h3>
+                        <div class="progress-bar">
+                        
+                        </div>
+                    </div>
+                    <div class="container">
+                        <button class="handle left-handle"><div class="text">
+                            &#8249;
+                        </div></button>
+                        <div class="slider">
+                            <img src="https://via.placeholder.com/210/00ff00?text=1" >
+                            <img src="https://via.placeholder.com/220/00ff00?text=2" >
+                            <img src="https://via.placeholder.com/230/00ff00?text=3" >
+                            <img src="https://via.placeholder.com/240/00ff00?text=4" >
+                            <img src="https://via.placeholder.com/250/00ff00?text=5" >
+                            <img src="https://via.placeholder.com/260/00ff00?text=6" >
+                            <img src="https://via.placeholder.com/270/00ff00?text=7" >
+                            <img src="https://via.placeholder.com/280/00ff00?text=8" >
+                            <img src="https://via.placeholder.com/280/00ff00?text=9" >
+                            <img src="https://via.placeholder.com/280/00ff00?text=10" >
+                            <img src="https://via.placeholder.com/280/00ff00?text=11" >
+                            <img src="https://via.placeholder.com/280/00ff00?text=12" >
+                        </div>
+                        <button class="handle right-handle"><div class="text">
+                            &#8250;
+                        </div></button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="footer-container">
+                    <div class="links">
+                        <i class="foot-link fa-brands fa-facebook-f"></i>
+                        <i class="foot-link fa-brands fa-instagram"></i>
+                        <i class="foot-link fa-brands fa-twitter"></i>
+                        <i class="foot-link fa-brands fa-youtube"></i>
+                    </div>
+                    <div class="footer-selections">
+                        <div class="left-footer-selections">
+                            <div class="footer-selection">口述影像</div>
+                            <div class="footer-selection">投資人關係</div>
+                            <div class="footer-selection">法律聲明</div>
+                            <div class="footer-selection">說明中心</div>
+                            <div class="footer-selection">工作機會</div>
+                            <div class="footer-selection">Cookie設定</div>
+                        </div>
+                        <div class="right-footer-selections">
+                            <div class="footer-selection">禮卡</div>
+                            <div class="footer-selection">使用條款</div>
+                            <div class="footer-selection">企業資訊</div>
+                            <div class="footer-selection">媒體中心</div>
+                            <div class="footer-selection">隱私權</div>
+                            <div class="footer-selection">聯絡我們</div>
+                        </div>
+                    </div>
+                    <div class="footer-bottom">
+                        <div class="service-code">服務代碼</div>
+                        <div class="copyright">2022 Tim Lin</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
