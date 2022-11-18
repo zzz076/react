@@ -58,6 +58,7 @@
                 
                
                 .hero-tag{
+                   
                     font-size: 1rem;
                 }
                 .hero-tag img{
@@ -170,7 +171,7 @@ font-family: 'Noto Sans TC', sans-serif;
 .app{
     height: 100%;
     background: rgba(7, 7, 7, 0.9);
-    position: relative;
+    // position: relative;
     min-height: 200vh;
     
     display: flex;
@@ -346,7 +347,7 @@ font-family: 'Noto Sans TC', sans-serif;
         top:30%;
         position: absolute;
         right:0;
-        z-index: 10;
+        z-index: 100;
         display: flex;
 
         .replay:hover{
@@ -379,14 +380,17 @@ font-family: 'Noto Sans TC', sans-serif;
     flex-direction: column;
     font-size: 5rem;
     z-index: 1;
+    max-width: 50rem;
     padding: 5rem;
-    
+    // max-width: 50%;
     // position: absolute;
     .hero-img{
         display: flex;
         justify-self: start;
     }
     .hero-tag{
+        font-weight: bold;
+        color: rgb(213, 213, 213);
         display: flex;
         align-items: center;
         font-size: 1.3rem;
@@ -554,18 +558,21 @@ font-family: 'Noto Sans TC', sans-serif;
     display: flex;
     align-items: center;
     justify-content: space-between;
+  
     padding: .5rem calc(var(--img-gap) * 2 + var(--handle-size));
 }
 
 .row-title{
     font-size:  1.5rem;
     margin: 0;
+    z-index: 10;
     color: rgb(196, 196, 196);
 }
 
 .progress-bar{
     display: flex;
     gap: .25rem;
+    z-index: 10;
 }
 
 .progress-item{
