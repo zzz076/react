@@ -56,7 +56,7 @@
            
             .hero-describe{
                 
-                top:5%;
+               
                 .hero-tag{
                     font-size: 1rem;
                 }
@@ -100,14 +100,10 @@
 
 @media (max-height:600px){
     .app{
-        .hero{
-            .hero-btn{
-                top:20%
-            }
-        }
+       
         .hero-describe{
             
-            top:5%;
+            
             .hero-tag{
                 font-size: 1rem;
             }
@@ -173,7 +169,7 @@ font-family: 'Noto Sans TC', sans-serif;
 
 .app{
     height: 100%;
-    background: rgba(7, 7, 7, 0.75);
+    background: rgba(7, 7, 7, 0.9);
     position: relative;
     min-height: 200vh;
     
@@ -339,7 +335,7 @@ font-family: 'Noto Sans TC', sans-serif;
     background: url(./assets/hero-background.jpg) no-repeat center ;
     background-size: cover;
     top: 0;
-   
+    position: absolute;
     z-index: 0;
     .mask{
         width: 100%;
@@ -382,11 +378,10 @@ font-family: 'Noto Sans TC', sans-serif;
     display: flex;
     flex-direction: column;
     font-size: 5rem;
-    z-index: 100;
-    padding: 2rem;
-    top: 10%;
-    left: 2%;
-    position: absolute;
+    z-index: 1;
+    padding: 5rem;
+    
+    // position: absolute;
     .hero-img{
         display: flex;
         justify-self: start;
@@ -593,9 +588,9 @@ font-family: 'Noto Sans TC', sans-serif;
     border: 1px solid #fff;
     border-radius: 3px;
 }
-.rows,.footer{
-    transform: translateY(-10%);
-}
+// .rows,.footer{
+//     transform: translateY(-10%);
+// }
 .footer{
    
     cursor: pointer;
